@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+    	"watch": true,
+    	"rootDir": "ts",
+        "outDir": "js",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "module": "CommonJS"
+    },
+    "compileOnSave": true
+}
