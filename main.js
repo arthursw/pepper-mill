@@ -57,4 +57,4 @@ var gui = new dat.GUI();
 
 gui.add(parameters, 'minRadius', 5, 100).name('Min radius').onChange(pepperMill);
 gui.add(parameters, 'maxRadius', 5, 100).name('Max radius').onChange(pepperMill);
-gui.add({'generateMills': pepperMill}, 'generateMills').name('Generate mills');
+gui.add({'generatePepperMills': pepperMill}, 'generatePepperMills').name('Generate pepper mills');
